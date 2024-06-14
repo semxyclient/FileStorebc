@@ -12,10 +12,10 @@ from datetime import datetime
 
 from config import API_HASH, APP_ID, LOGGER, TG_BOT_TOKEN, TG_BOT_WORKERS, FORCE_SUB_CHANNEL, FORCE_SUB_CHANNEL2, CHANNEL_ID, PORT
 
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+pyrogram.utils.MIN_CHANNEL_ID = -1002178542939
 
 name ="""
- BY MIKEY FROM TG
+ BY SHIMPERD FROM TG
 """
 
 
@@ -76,7 +76,7 @@ class Bot(Client):
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/weebs_support")
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/+mVX1hOZ9CgFkNDk9")
         self.LOGGER(__name__).info(f"""SHIMPERD""")
         self.username = usr_bot_me.username
         #web-response
